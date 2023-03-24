@@ -4,9 +4,12 @@ defmodule Cpsc.MixProject do
   def project do
     [
       app: :cpsc,
+      name: "cpsc",
       version: "0.1.0",
       elixir: "~> 1.14",
-      license: "MIT",
+      licenses: ["MIT"],
+      description: "A simple wrapper for the CPSC API",
+      source_url: "https://github.com/3zcurdia/cpsc",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
